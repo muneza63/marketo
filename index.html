@@ -180,7 +180,7 @@
       <div class="logo">EuroPlayerMarket</div>
       <div class="nav-links">
         <a href="#home">Home</a>
-        <a href="#market">Marketplace</a>
+        <a href="https://www.transfermarkt.com">Marketplace</a>
         <a href="#about">About Us</a>
         <a href="#contact">Contact</a>
       </div>
@@ -190,7 +190,7 @@
   <!-- HERO -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Find Your Perfect Player with AI</h1>
+      <h1>Find Your Perfect Player on muneza and danny platform</h1>
       <p>Europe's best football talent. Search by specialization, style, or role — our AI finds the exact match.</p>
       <button class="btn" onclick="document.getElementById('market').scrollIntoView({behavior:'smooth'})">Explore Marketplace</button>
     </div>
@@ -216,7 +216,7 @@
   <section id="about" style="background:#1a1a1a;">
     <h2>About Us</h2>
     <div style="max-width:800px; margin:0 auto; text-align:center; font-size:1.1rem;">
-      <p>EuroPlayerMarket is the smartest digital platform for European football transfers. Our AI recommendation engine helps clubs and agents find players with the exact specialization they need.</p>
+      <p>EuroPlayerMarket is the smartest digital platform for European football transfers.  muneza and dany platform recommendation engine helps clubs and agents find players with the exact specialization they need.</p>
     </div>
   </section>
 
@@ -253,29 +253,29 @@
   <script>
     // Expanded player database with more specializations
     const players = [
-      { id:1, name:"Lamine Yamal", club:"FC Barcelona", position:"RW", age:18, price:120000000, img:"https://images.unsplash.com/photo-1624880357913-a8539238245b?q=80&w=2070",
+      { id:1, name:"Lamine Yamal", club:"FC Barcelona", position:"RW", age:18, price:120000000, img:"yamal.webp",
         specialties: ["young", "right winger", "pace", "dribbling", "flair", "attacker"] },
-      { id:2, name:"Kylian Mbappé", club:"Real Madrid", position:"ST", age:27, price:180000000, img:"https://images.pexels.com/photos/30158894/pexels-photo-30158894.jpeg",
+      { id:2, name:"Kylian Mbappé", club:"Real Madrid", position:"ST", age:27, price:180000000, img:"mbape.jpg",
         specialties: ["striker", "pace", "speed", "goal scorer", "finishing", "attacker"] },
-      { id:3, name:"Erling Haaland", club:"Manchester City", position:"ST", age:25, price:150000000, img:"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070",
+      { id:3, name:"Erling Haaland", club:"Manchester City", position:"ST", age:25, price:150000000, img:"haland.jpg",
         specialties: ["striker", "goal scorer", "power", "heading", "finishing"] },
-      { id:4, name:"Jude Bellingham", club:"Real Madrid", position:"CM", age:22, price:110000000, img:"https://images.pexels.com/photos/718952/pexels-photo-718952.jpeg",
+      { id:4, name:"Jude Bellingham", club:"Real Madrid", position:"CM", age:22, price:110000000, img:"belli.webp",
         specialties: ["midfielder", "box to box", "young", "energy", "tackling", "goal scoring"] },
-      { id:5, name:"Vinícius Júnior", club:"Real Madrid", position:"LW", age:25, price:130000000, img:"https://images.unsplash.com/photo-1553778263-73a83bab9b0c?q=80&w=2070",
+      { id:5, name:"Vinícius Júnior", club:"Real Madrid", position:"LW", age:25, price:130000000, img:"vin.png",
         specialties: ["left winger", "pace", "dribbling", "flair", "attacker"] },
-      { id:6, name:"Declan Rice", club:"Arsenal", position:"DM", age:27, price:85000000, img:"https://images.unsplash.com/photo-1593341646782-e0b495cff86d?q=80&w=2070",
+      { id:6, name:"Declan Rice", club:"Arsenal", position:"DM", age:27, price:85000000, img:"rice.avif",
         specialties: ["defensive midfielder", "tackling", "interceptions", "leadership", "midfielder"] },
-      { id:7, name:"Harry Kane", club:"Bayern Munich", position:"ST", age:32, price:65000000, img:"https://images.pexels.com/photos/1476171/pexels-photo-1476171.jpeg",
+      { id:7, name:"Harry Kane", club:"Bayern Munich", position:"ST", age:32, price:65000000, img:"kane.jpg",
         specialties: ["striker", "goal scorer", "penalties", "set pieces", "experience"] },
-      { id:8, name:"Mohamed Salah", club:"Liverpool", position:"RW", age:33, price:45000000, img:"https://images.unsplash.com/photo-1612872087726-0b2e9c0f0f0f?q=80&w=2070",
+      { id:8, name:"Mohamed Salah", club:"Liverpool", position:"RW", age:33, price:45000000, img:"sala.jpg",
         specialties: ["right winger", "goal scorer", "pace", "finishing"] },
-      { id:9, name:"Pedri", club:"FC Barcelona", position:"CM", age:23, price:95000000, img:"https://images.unsplash.com/photo-1543326727-0b2e9c0f0f0f?q=80&w=2070",
+      { id:9, name:"Pedri", club:"FC Barcelona", position:"CM", age:23, price:95000000, img:"pedri.jpg",
         specialties: ["midfielder", "vision", "passing", "young", "technique"] },
-      { id:10, name:"Bukayo Saka", club:"Arsenal", position:"RW", age:24, price:105000000, img:"https://images.pexels.com/photos/30158894/pexels-photo-30158894.jpeg",
+      { id:10, name:"Bukayo Saka", club:"Arsenal", position:"RW", age:24, price:105000000, img:"saka.jpg",
         specialties: ["right winger", "young", "pace", "dribbling", "attacker"] },
-      { id:11, name:"William Saliba", club:"Arsenal", position:"CB", age:25, price:70000000, img:"https://images.unsplash.com/photo-1593341646782-e0b495cff86d?q=80&w=2070",
+      { id:11, name:"William Saliba", club:"Arsenal", position:"CB", age:25, price:70000000, img:"saliba.jpg",
         specialties: ["centre back", "defender", "tackling", "aerial", "ball playing"] },
-      { id:12, name:"Thibaut Courtois", club:"Real Madrid", position:"GK", age:33, price:35000000, img:"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070",
+      { id:12, name:"Thibaut Courtois", club:"Real Madrid", position:"GK", age:33, price:35000000, img:"coutois.jpg",
         specialties: ["goalkeeper", "shot stopper", "experience", "aerial"] }
     ];
 
